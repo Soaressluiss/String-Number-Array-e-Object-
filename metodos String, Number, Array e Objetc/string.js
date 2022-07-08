@@ -9,7 +9,10 @@ let results  = frase.indexOf('mundo') // vai informar em que posição o caracte
     results = frase.repeat(2) // vai repetir a string a quantidade de vezes que for informado
     results = frase.length // informa o tamanho da string = 41
     results = frase.split(' ') // irá criar um array cuja divisão ser com base no que for passado no caso 'espaço'= ['Olá', 'mundo', 'estou', 'aprendendo', 'sobre', 'strings']
-        
+    results = frase.toUpperCase() // deixá tudo em maiúsculo
+    results = frase.toLowerCase() // deixa tudo em minusculo
+    results = frase.concat(' e como estou gostando') // juntar a primeira string com a novo criada = Ola mundo! estou aprendendo sobre strings e como estou gostando
+    results = frase.replace('Strings','arrays') // trocasse um termo do primeiro argumento pelo do segundo 
 
     
     console.log(results)
